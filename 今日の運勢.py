@@ -6,7 +6,7 @@ st.write("「占う！」ボタンを押して、今日のラッキーをチェ�
 
 if st.button("占う！"):
     color = random.choice(["赤", "青", "黄", "緑", "白"])
-    item = random.choice(["みょうが", "小石", "メモ帳", "ペットボトル", "蓋"])
+    item = random.choice(["みょうが", "小石", "メモ帳", "ペットボトル", "蓋", "冷たい飲み物"])
     number = random.choice(["58", "2", "99", "72", "63"])
 
     st.write(f"🟥 **ラッキーカラー：{color}**")
